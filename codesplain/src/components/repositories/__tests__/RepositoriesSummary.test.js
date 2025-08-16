@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import RepositoriesSummary from '../RepositoriesSummary';
 
-test('display information about the repositury', () => {
+test('displays information about the repository', () => {
   const repository = {
     stargazers_count: 1,
     open_issues: 50,
